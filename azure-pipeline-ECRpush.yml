@@ -1,8 +1,8 @@
 trigger: 
  - master
 
-pool:
-   name: Self-Hosted-Agent
+#pool:
+#   name: Self-Hosted-Agent
 
 variables:
   - group: dev
