@@ -7,7 +7,7 @@ trigger:
 #  vmImage: 'ubuntu-latest'
 
 variables:
-  - group: main
+  - group: dev
   - name: test-hello-world
     value: $(AWS_ACCOUNT_ID).dkr.ecr.$(AWS_REGION).amazonaws.com/$(DOCKER_REPOSITORY_NAME)
 
