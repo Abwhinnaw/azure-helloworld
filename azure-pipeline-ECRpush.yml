@@ -37,7 +37,7 @@ stages:
       displayName: Build an image
       inputs:
         command: build
-        dockerfile: '$(System.DefaultWorkingDirectory)/Dockerfile'
+        dockerfile: '$(Dockerfile)'
         buildContext: '$(System.DefaultWorkingDirectory)'
         repository: $(AWS_ECR_MAGE_URI)
 
